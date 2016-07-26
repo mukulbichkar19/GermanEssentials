@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="category_numbers">#F8BBD0</color>]
+    <color name="category_colors">#FF5252</color>
+    <color name="category_maths">#536DFE</color>
+    <color name="category_days">#EF6C00</color>
+    <color name="category_times">#4E342E</color>
+    <color name="category_months">#00796B</color>
+    <color name="category_countries">#6A1B9A</color>
+    <color name="category_family">#37474F</color>
+    <color name="category_commonwords">#0097A7</color>
+</resources>

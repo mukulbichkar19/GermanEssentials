@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GermanEssentials</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_maths">Maths Symbols</string>
+    <string name="category_days">Days of the Week</string>
+    <string name="category_times">Times of the Day</string>
+    <string name="category_months">Months</string>
+    <string name="category_countries">Countries</string>
+    <string name="category_family">Family Members</string>
+    <string name="category_commonwords">Common Words</string>
+</resources>

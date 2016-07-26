@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.germanessentials.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_numbers"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors">
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_colors"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/maths"
+        style="@style/CategoryStyle"
+        android:background="@color/category_maths"
+        android:text="@string/category_maths"/>
+
+    <TextView
+        android:id="@+id/days"
+        style="@style/CategoryStyle"
+        android:background="@color/category_days"
+        android:text="@string/category_days"/>
+
+    <TextView
+        android:id="@+id/times"
+        style="@style/CategoryStyle"
+        android:background="@color/category_times"
+        android:text="@string/category_times"/>
+
+    <TextView
+        android:id="@+id/months"
+        style="@style/CategoryStyle"
+        android:background="@color/category_months"
+        android:text="@string/category_months"/>
+
+    <TextView
+        android:id="@+id/countries"
+        style="@style/CategoryStyle"
+        android:background="@color/category_countries"
+        android:text="@string/category_countries"/>
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/category_family"/>
+
+    <TextView
+        android:id="@+id/common"
+        style="@style/CategoryStyle"
+        android:background="@color/category_commonwords"
+        android:text="@string/category_commonwords"/>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
