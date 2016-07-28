@@ -9,10 +9,10 @@
 
 
     <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_width="84dp"
         android:id="@+id/list_image"
-        android:src="@drawable/number_one"/>
+        android:src="@mipmap/ic_launcher"/>
 
     <LinearLayout
         android:layout_width="0dp"
@@ -27,7 +27,6 @@
             android:layout_width="match_parent"
             android:text="Hi"
             android:textSize="24sp"
-            android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             />
 

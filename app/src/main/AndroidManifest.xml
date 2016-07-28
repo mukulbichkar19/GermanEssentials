@@ -28,9 +28,6 @@
         <activity android:name=".DaysActivity"
             android:label="Days of the Week"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".TimesActivity"
-            android:label="Times of the Day"
-            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MonthsActivity"
             android:label="Months"
             android:parentActivityName=".MainActivity"/>

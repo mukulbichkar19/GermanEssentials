@@ -44,11 +44,11 @@
         android:background="@color/category_days"
         android:text="@string/category_days"/>
 
-    <TextView
+    <!--<TextView
         android:id="@+id/times"
         style="@style/CategoryStyle"
         android:background="@color/category_times"
-        android:text="@string/category_times"/>
+        android:text="@string/category_times"/>-->
 
     <TextView
         android:id="@+id/months"

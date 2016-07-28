@@ -60,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView times = (TextView)findViewById(R.id.times);
+        /*TextView times = (TextView)findViewById(R.id.times);
         times.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this,TimesActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
 
         TextView months = (TextView)findViewById(R.id.months);
         months.setOnClickListener(new View.OnClickListener() {

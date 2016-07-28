@@ -9,10 +9,22 @@ public class Word {
     private String mdefaultWord;
     // A Variable for Translated word i.e. german in this case.
     private String mtranslatedWord;
+    // A Variable for Storing the associated image if image present.
+    private int mImageID;
+    // a boolean to indicate whether the Word has Image Associated with it
+    boolean hasImageAssocciated = false;
 
     public Word(String mdefaultWord,String mtranslatedWord){
         this.mdefaultWord = mdefaultWord;
         this.mtranslatedWord = mtranslatedWord;
+    }
+
+    public Word(String mdefaultWord,String mtranslatedWord,int mImageID){
+        this.mdefaultWord = mdefaultWord;
+        this.mtranslatedWord = mtranslatedWord;
+        this.mImageID = mImageID;
+        this.hasImageAssocciated = true;
+
     }
 
     public String getMdefaultWord(){
@@ -20,5 +32,11 @@ public class Word {
     }
     public String getMtranslatedWord(){
         return this.mtranslatedWord;
+    }
+    public int getMImageID(){
+        return this.mImageID;
+    }
+    public boolean getIfImageAssociated(){
+        return this.hasImageAssocciated;
     }
 }
