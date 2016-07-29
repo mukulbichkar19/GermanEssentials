@@ -19,8 +19,10 @@
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
         android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_numbers"/>
+        android:text="@string/category_numbers"
+        android:textColor="@color/black"/>
     </FrameLayout>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,51 +31,85 @@
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="?android:attr/selectableItemBackground"
-        android:text="@string/category_colors"/>
+        android:text="@string/category_colors"
+        android:textColor="@color/black"/>
     </FrameLayout>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_maths">
     <TextView
         android:id="@+id/maths"
         style="@style/CategoryStyle"
-        android:background="@color/category_maths"
-        android:text="@string/category_maths"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_maths"
+        android:textColor="@color/black"/>
+    </FrameLayout>
 
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/category_days">
     <TextView
         android:id="@+id/days"
         style="@style/CategoryStyle"
-        android:background="@color/category_days"
-        android:text="@string/category_days"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_days"
+        android:textColor="@color/black"/>
+    </FrameLayout>
 
-    <!--<TextView
-        android:id="@+id/times"
-        style="@style/CategoryStyle"
-        android:background="@color/category_times"
-        android:text="@string/category_times"/>-->
 
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/category_months">
     <TextView
         android:id="@+id/months"
         style="@style/CategoryStyle"
-        android:background="@color/category_months"
-        android:text="@string/category_months"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_months"
+        android:textColor="@color/black"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/category_countries">
 
     <TextView
         android:id="@+id/countries"
         style="@style/CategoryStyle"
-        android:background="@color/category_countries"
-        android:text="@string/category_countries"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_countries"
+        android:textColor="@color/black"/>
+    </FrameLayout>
 
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/category_family">
     <TextView
         android:id="@+id/family"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
-        android:text="@string/category_family"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_family"
+        android:textColor="@color/black"/>
+    </FrameLayout>
 
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/category_commonwords">
     <TextView
         android:id="@+id/common"
         style="@style/CategoryStyle"
-        android:background="@color/category_commonwords"
-        android:text="@string/category_commonwords"/>
-
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_commonwords"
+        android:textColor="@color/black"/>
+    </FrameLayout>
 
 
 

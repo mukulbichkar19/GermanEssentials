@@ -1,49 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center_vertical"
-    android:minHeight="?android:attr/listPreferredItemHeight"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
 
     <ImageView
-        android:layout_height="84dp"
-        android:layout_width="84dp"
         android:id="@+id/list_image"
-        android:src="@mipmap/ic_launcher"/>
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="@dimen/list_item_height"
+        android:src="@drawable/family_son"
+        android:background="@color/tan_background"/>
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:paddingLeft="16dp">
+    <RelativeLayout
+
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:id="@+id/nuclear">
 
         <TextView
             android:id="@+id/english"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/list_item_height"
             android:layout_width="match_parent"
-            android:text="Hi"
+            android:text="English"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
             android:textSize="24sp"
-            android:layout_marginTop="16dp"
-            />
+            android:textColor="@color/black"
+            android:background="?android:attr/selectableItemBackground"/>
 
         <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="Hello"
-            android:textSize="24sp"
             android:id="@+id/translated"
-            />
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="German"
+            android:paddingTop="48dp"
+            android:paddingLeft="16dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/play_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_play_arrow_white_24dp"
+            android:paddingRight="16dp"/>
+
+    </RelativeLayout>
 
 
 
 
 
-    </LinearLayout>
-
-
-
-</LinearLayout>
+</RelativeLayout>

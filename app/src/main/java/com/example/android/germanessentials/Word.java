@@ -13,16 +13,28 @@ public class Word {
     private int mImageID;
     // a boolean to indicate whether the Word has Image Associated with it
     boolean hasImageAssocciated = false;
+    // A private int as Audio Resource Id
+    private int mAudioResourceID;
 
-    public Word(String mdefaultWord,String mtranslatedWord){
+    public Word(String mdefaultWord,String mtranslatedWord,int mAudioResourceID){
         this.mdefaultWord = mdefaultWord;
         this.mtranslatedWord = mtranslatedWord;
+        this.mAudioResourceID = mAudioResourceID;
     }
 
-    public Word(String mdefaultWord,String mtranslatedWord,int mImageID){
+   /* public Word(String mdefaultWord,String mtranslatedWord,int mImageID){
         this.mdefaultWord = mdefaultWord;
         this.mtranslatedWord = mtranslatedWord;
         this.mImageID = mImageID;
+        this.hasImageAssocciated = true;
+
+    }*/
+
+    public Word(String mdefaultWord,String mtranslatedWord,int mImageID,int mAudioResourceID){
+        this.mdefaultWord = mdefaultWord;
+        this.mtranslatedWord = mtranslatedWord;
+        this.mImageID = mImageID;
+        this.mAudioResourceID = mAudioResourceID;
         this.hasImageAssocciated = true;
 
     }
@@ -38,5 +50,8 @@ public class Word {
     }
     public boolean getIfImageAssociated(){
         return this.hasImageAssocciated;
+    }
+    public int getmAudioResourceID(){
+        return this.mAudioResourceID;
     }
 }
